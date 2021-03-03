@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Average&family=Potta+One&family=Righteous&family=Roboto:wght@900&family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Raleway+Dots&family=Raleway:ital,wght@1,300&family=Righteous&display=swap");
+/* font-family: 'Anton', sans-serif;
+font-family: 'Average', serif;
+font-family: 'Potta One', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Staatliches', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Raleway Dots', cursive;*/
+:root {
+  --main-white: #f0f0f0;
+  --main-red: #be3144;
+  --main-blue: #45567d;
+  --main-gray: #303841;
+}
+/* COMMON SETTINGS */
+
+* {
+  font-family: "Raleway Dots", sans-serif;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 62.2%;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: corumn;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* NAVIGATION STLYES */
+.section-1 {
+  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: rgb(190, 49, 68);
+  position: fixed;
+  padding: 3vh 3vh;
+  top: 0;
+  left: 0;
+  -webkit-box-shadow: 2px 4px 16px -1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 2px 4px 16px -1px rgba(0, 0, 0, 1);
+  box-shadow: 2px 4px 16px -1px rgba(0, 0, 0, 1);
+}
+
+li {
+  position: relative;
+}
+.section-1 ul {
+  display: flex;
+  justify-content: space-between;
+  font-size: 5rem;
+  flex-wrap: wrap;
+}
+.section-1 ul li {
+  padding: 0.5vh;
+}
+
+a {
+  color: var(--main-white);
+  padding: 0.8vh;
+  letter-spacing: 0.1rem;
+  width: fit-content;
+  -webkit-box-shadow: 2px 4px 16px -1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 2px 4px 16px -1px rgba(0, 0, 0, 1);
+  box-shadow: 2px 4px 16px -1px rgba(0, 0, 0, 1);
+}
+a:hover {
+  border-radius: 1rem 1rem 1rem 1rem;
+  -webkit-border-radius: 1rem 1rem 1rem 1rem;
+  -moz-border-radius: 1rem 1rem 1rem 1rem;
+  -ms-border-radius: 1rem 1rem 1rem 1rem;
+  -o-border-radius: 1rem 1rem 1rem 1rem;
+  padding: 1rem;
+  background-image: linear-gradient(to right, #4facfe52 100%, #43eaf333 100%);
+  -webkit-box-shadow: 2px 4px 16px -1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 2px 4px 16px -1px rgba(0, 0, 0, 1);
+  box-shadow: 2px 4px 16px -1px rgba(0, 0, 0, 1);
+}
+
+/* END OF NAVIGATION STLYES */
+/* DESCRIPTION STLYES */
+.section-2 {
+  flex-wrap: wrap;
+  margin-right: 4vh;
+  display: flex;
+  width: 100%;
+  height: 70vh;
+  justify-content: space-evenly;
+  background-color: white;
+  z-index: 2;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-content: stretch;
+  width: 50vw;
+  box-shadow: 2px 4px 16px -1px rgba(0, 0, 0, 1);
+}
+.description-title span {
+  font-family: "Righteous", cursive;
+  color: var(--main-red);
+  font-weight: 100;
+}
+.description-title {
+  padding-top: 2vh;
+  width: auto;
+  height: 10vh;
+  padding-top: 4vh;
+}
+.description-title h1 {
+  color: rgb(12, 1, 1);
+  font-size: 4rem;
+  font-weight: 700;
+  margin-left: 2vh;
+}
+.desc {
+  letter-spacing: 0.1;
+  font-size: 1.7rem;
+  margin-left: 2rem;
+  color: rgb(10, 1, 1);
+  font-style: italic;
+  margin-bottom: 4rem;
+  margin-right: 2rem;
+  padding-top: 2vh;
+  letter-spacing: 0.2rem;
+}
+.l1 {
+  background-color: var(--main-red);
+  font-size: 1.4rem;
+  align-self: flex-end;
+  font-weight: 900;
+  font-style: bold;
+  margin: 10rem 10rem 10rem 10rem;
+}
+
+/* END DESCRIPTION STLYES */
