@@ -97,18 +97,18 @@ a:hover {
   height: 70vh;
   justify-content: space-evenly;
   background-color: white;
-  position:absolute;
-  top:  11.815008vh;
+  position: absolute;
+  top: 11.815008vh;
 }
 @media screen and (max-width: 556px) {
   .section-2 {
-    position:absolute;
+    position: absolute;
     top: 22.36992vh;
   }
 }
 @media screen and (max-width: 288px) {
   .section-2 {
-    position:absolute;
+    position: absolute;
     top: 46.08vh;
   }
 }
@@ -116,25 +116,24 @@ a:hover {
 .description {
   flex-grow: 1;
   flex-basis: 50%;
-  /* display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: stretch;
   align-content: stretch;
   width: 50vw;
   box-shadow: 2px 4px 16px -1px rgba(0, 0, 0, 1);
- position: relative; */
- 
+  position: relative;
 }
 .description-title {
-  /* padding-top: 2vh;
+  padding-top: 2vh;
   width: auto;
   height: 10vh;
   padding-top: 4vh;
   position: absolute;
   top: 10vh;
-  left: 0; */
+  left: 0;
 }
-description-text{
+description-text {
   display: absolute;
 }
 .description-title span {
