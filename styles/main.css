@@ -108,7 +108,7 @@ a:hover {
 }
 @media screen and (max-width: 288px) {
   .section-2 {
-    position: absolute;
+    position: absolutes;
     top: 46.08vh;
   }
 }
